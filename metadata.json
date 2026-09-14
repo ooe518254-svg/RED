@@ -1,0 +1,6 @@
+{
+  "name": "Red",
+  "description": "Peer-to-peer crypto ledger currency (RTC) web application featuring WebRTC DataChannel synchronization, Supabase persistence, and transaction reporting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

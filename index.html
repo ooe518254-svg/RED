@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>Red - RTC Ledger</title>
+    <meta name="description" content="Peer-to-peer crypto ledger currency (RTC) web application featuring WebRTC DataChannel synchronization and Supabase persistence." />
+    <meta property="og:title" content="Red - RTC Ledger" />
+    <meta property="og:description" content="Peer-to-peer crypto ledger currency (RTC) web application featuring WebRTC DataChannel synchronization and Supabase persistence." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <!-- CDN scripts as requested in technical stack instructions -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased selection:bg-rose-600 selection:text-white min-h-screen overflow-x-hidden">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
